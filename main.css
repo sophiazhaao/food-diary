@@ -1,0 +1,123 @@
+#header {
+	background-image: url('img/homepage.jpeg');
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	font-size: 1.7em;
+	padding-top: 50px;
+}
+
+h1 {
+	margin: 0px;
+	text-align: center;
+	line-height: 95px;
+	background-color: rgba(183, 193, 172, 0.75);
+	color: #FFF;
+	width: 850px;
+	height: 100px;
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0px;
+}
+
+#homebutton {
+	border-radius: 50px;
+	background-color: rgba(183, 193, 172, 1.0);
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	color: #FFF;
+	font-size: 1.25em;
+}
+
+#foodbutton {
+	border-radius: 50px;
+	background-color: rgba(183, 193, 172, 1.0);
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	color: #FFF;
+	font-size: 1.25em;
+}
+
+#drinkbutton {
+	border-radius: 50px;
+	background-color: rgba(183, 193, 172, 1.0);
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	color: #FFF;
+	font-size: 1.25em;
+}
+
+.entry {
+	height: 370px;
+	width: 800px;
+	margin: auto;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	border: solid #5C4033 3px;
+	box-shadow: 8px 8px rgba(183, 193, 172, 0.75);
+	transition: transform 0.7s ease-in-out;
+}
+
+.entry > img {
+	position: relative;
+	top: 20px;
+	margin: 30px;
+	height: 250px;
+	width: 250px;
+}
+
+.entry > h2 {
+	position: relative;
+	bottom: 20px;
+	left: 30px;
+	color: #5C4033;
+	font-size: 1.75em;
+	font-family: sans-serif;
+}
+
+@font-face {
+	font-family: "Unicorn Giggles";
+	src: url("fonts/unicorn-giggles.regular.ttf");
+}
+
+.entry > .rating {
+	width: 460px;
+	height: 35px;
+	position: relative;
+	bottom: 353px;
+	left: 310px;
+	font-family: "Unicorn Giggles", fantasy;
+	font-size: 2em;
+	color: gold;
+}
+
+.entry > .cost {
+	width: 460px;
+	height: 25px;
+	position: relative;
+	bottom: 380px;
+	left: 310px;
+	font-family: monospace;
+	font-size: 1.7em;
+}
+
+.entry > .thoughts {
+	width: 420px;
+	height: 200px;
+	position: relative;
+	bottom: 390px;
+	left: 310px;
+	font-size: 1.1em;
+}
+
+.entry:hover {
+	transform: scale(1.1);
+}

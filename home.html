@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta name="description" content="a food and drink vlog filled with pictures and thoughts from sophia! contains a seperate home page, drinks page, and food page that viewers can browse between.">
+	<title>sophia's food diary</title>
+	<link rel="stylesheet" href="main.css">
+	<style>
+		body {
+			position: relative;
+		}
+
+		p {
+			width: 800px;
+			font-size: 1.3em;
+			position: absolute;
+			right: 150px;
+			top: 275px;
+			color: #5C4033;
+		}
+
+		.profilepicture {
+			position: relative;
+			width: 300px;
+			height: auto;
+			left: 150px;
+			top: 100px;
+		}
+
+		#foodpicture {
+			position: absolute;
+			right: 625px;
+			bottom: -50px;
+			width: 200px;
+		}
+
+		#drinkpicture {
+			position: absolute;
+			right: 275px;
+			bottom: -50px;
+		}
+
+		#foodbutton {
+			position: absolute;
+			bottom: -120px;
+			right: 650px;
+		}
+
+		#drinkbutton {
+			position: absolute;
+			bottom: -120px;
+			right: 300px;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h1>sophia's food diary!</h1>
+	</div> <!-- #header -->
+
+	<div id="profile">
+		<img class="profilepicture" src="img/profilepicture.jpeg" alt="sophia face">
+		<p>hello! my name is sophia and this is my web page for sharing about something i really really really love... food!!! so if you're here for a quick browse, or you just want to see what my taste buds have been up to, by all means feel free to hang around :) you can see what i've been munching and sipping on! and hopefully get some ideas of where to grab your next meal or have your next study sesh!</p>
+	</div> <!-- #profile -->
+
+	<img id="foodpicture" src="img/food.png" alt="sushi">
+	<img id="drinkpicture" src="img/boba.png" alt="boba">
+
+	<form action="food.html">
+		<div class="form-row">
+			<button id="foodbutton" type="submit">food</button>
+		</div>
+	</form>
+
+	<form action="drink.html">
+		<div class="form-row">
+			<button id="drinkbutton" type="submit">drink</button>
+		</div>
+	</form>
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="typewriter/jquerytypewriter.js"></script>
+
+	<script>
+		$('h1').typewrite({
+			'callback': function(){},
+			'delay': 90
+		});
+	</script>
+	</body>
+</html>
